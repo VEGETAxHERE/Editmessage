@@ -24,7 +24,7 @@ from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-BOT_ID = "7049608720"  # Corrected this line
+BOT_ID = "7406088331"  # Corrected this line
 
 from pyrogram import Client, filters
 from pyrogram.types import ChatPermissions
@@ -39,7 +39,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 # List of users with sudo privileges
-sudo_users = [6521935712, 7180811465]  # Replace with actual user IDs
+sudo_users = [6487373743, 6487373743]  # Replace with actual user IDs
 # Run the bot
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -92,7 +92,7 @@ def start(client, message):
 
 # Function to create inline keyboard button to add the bot
 def create_button():
-    bot_username = "BrokenXsiD_RoBot"
+    bot_username = "TreasureXedit_bot"
     button = InlineKeyboardButton("Add In Your Group 🤖", url=f"https://t.me/{bot_username}?startgroup=true")
     markup = InlineKeyboardMarkup([[button]])
     return markup
