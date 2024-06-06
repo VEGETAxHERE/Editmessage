@@ -92,13 +92,12 @@ def start(client, message):
 
 # Function to create inline keyboard button to add the bot
 def create_button():
-    bot_username = "TreasureXedit_bot"
     buttons = [
         [
             InlineKeyboardButton(
                 text=_["𝘼𝘿𝘿 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋
 😍"],
-                url=f"https://t.me/{bot_username}?startgroup=true",
+                url=f"https://t.me/TreasureXedit_bot?startgroup=true",
             )
         ],
         [InlineKeyboardButton(text=_["𝙊𝙒𝙉𝙀𝙍❤️"], url=f"https://t.me/@VEGETAX2")],
